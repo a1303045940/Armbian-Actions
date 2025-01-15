@@ -12,6 +12,7 @@ on:
           - fine3399
           - fmx1-pro
           - r08
+          - g68
           - rock960
           - sg2710
           - tpm312
@@ -159,7 +160,7 @@ jobs:
           allowUpdates: true  
           removeArtifacts: false  
           replacesArtifacts: true  
-          token: ${{ secrets.MY_TOKEN }}  
+          token: ${{ secrets.GITHUB_TOKEN }}  
           body: |  
             ### Armbian Kernel Packages  
             - The kernel can be used to compile Armbian
