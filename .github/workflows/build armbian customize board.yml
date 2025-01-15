@@ -11,6 +11,7 @@ on:
         options:
           - fine3399
           - fmx1-pro
+          - g68
           - r08
           - rock960
           - sg2710
@@ -140,7 +141,7 @@ jobs:
           allowUpdates: true 
           removeArtifacts: false 
           replacesArtifacts: true 
-          token: ${{ secrets.MY_TOKEN }}  
+          token: ${{ secrets.GITHUB_TOKEN }}  
           body: |  
             ### Armbian Image Information  
             - Release: ${{ github.event.inputs.RELEASE }}    
