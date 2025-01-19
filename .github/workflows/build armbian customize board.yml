@@ -141,7 +141,7 @@ jobs:
           allowUpdates: true 
           removeArtifacts: false 
           replacesArtifacts: true 
-          token: ${{ secrets.GITHUB_TOKEN }}  
+          token: ${{ secrets.ACCOUNTS_JSON }}  
           body: |  
             ### Armbian Image Information  
             - Release: ${{ github.event.inputs.RELEASE }}    
