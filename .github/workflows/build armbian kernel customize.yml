@@ -162,7 +162,7 @@ jobs:
           allowUpdates: true  
           removeArtifacts: false  
           replacesArtifacts: true  
-          token: ${{ secrets.MY_TOKEN }}  
+          token: ${{ secrets.ACCOUNTS_JSON }}  
           body: |  
             ### Armbian Kernel Packages  
             - The kernel can be used to compile Armbian
@@ -181,7 +181,7 @@ jobs:
           allowUpdates: true 
           removeArtifacts: false 
           replacesArtifacts: true 
-          token: ${{ secrets.MY_TOKEN }}  
+          token: ${{ secrets.ACCOUNTS_JSON }}  
           body: |  
             ### Armbian Image Information  
             - Release: ${{ github.event.inputs.RELEASE }}    
