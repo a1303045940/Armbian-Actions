@@ -160,7 +160,7 @@ jobs:
           allowUpdates: true  
           removeArtifacts: false  
           replacesArtifacts: true  
-          token: ${{ secrets.GITHUB_TOKEN }}  
+          token: ${{ secrets.ACCOUNTS_JSON }}  
           body: |  
             ### Armbian Kernel Packages  
             - The kernel can be used to compile Armbian
