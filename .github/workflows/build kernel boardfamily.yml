@@ -9,6 +9,7 @@ on:
         default: 'tpm312'
         type: choice
         options:
+          - g68
           - emb3531
           - fine3399
           - fmx1-pro
