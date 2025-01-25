@@ -11,6 +11,7 @@ on:
         options:
           - fine3399
           - r08
+          - g68
           - rock960
           - sg2710
           - tpm312
